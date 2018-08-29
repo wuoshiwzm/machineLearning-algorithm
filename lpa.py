@@ -12,7 +12,7 @@ def label_propagation(data, a):
 
             j = calc_label(p,i)
             label = data[j][n-1]#data[j]的标签
-            if label>0
+            if label>0:
                 data[i][n-1] = label
 
 
@@ -26,23 +26,6 @@ def calc_label(p,i): #p:概率 pij:从顶点i转移到顶点j的概率
             break
     return r
 
-
-
-
-
-    #
-    #         label = 0
-    #         for j in range(0, m):#把j的标签传递给i 如果j没有标签就不给
-    #             if p[i][j] > 0 and data[j][n - 1] != 0:
-    #                 label += p[i][j] * data[j][n - 1]
-    #         if in_test(data[i]):
-    #             print(times, data[i][n - 1], label)
-    #         if label > 0:
-    #             data[i][n - 1] = round_label(label)
-    # for i in range(a, m):
-    #     data[i][n - 1] = max_label(data[i][n - 1])
-    #
-    # return
 
 
 # 转移矩阵 与laplace矩阵很像

@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bdb17bb-d64b-447b-8ab0-7a8e5fc57c31" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lpa.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spectral_cluster.py" beforeDir="false" afterPath="$PROJECT_DIR$/spectral_cluster.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lpa.py" beforeDir="false" afterPath="$PROJECT_DIR$/lpa.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,28 +14,29 @@
     <session id="1563528246">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.29" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="6" />
+          <entry key="py" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="6" />
+          <entry key="Python" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="1818" />
+          <entry key="py" value="1820" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="1818" />
+          <entry key="Python" value="1820" />
         </counts>
       </usages-collector>
     </session>
@@ -45,13 +44,12 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lpa.py">
+        <entry file="file://$PROJECT_DIR$/spectral_cluster.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
+            <state relative-caret-position="736">
+              <caret line="53" column="20" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
               <folding>
-                <marker date="1535543192063" expanded="true" signature="71:76" ph="..." />
-                <marker date="1535543192063" expanded="true" signature="1176:1721" ph="..." />
+                <marker date="1535541745465" expanded="true" signature="604:605" ph="..." />
               </folding>
             </state>
           </provider>
@@ -160,10 +158,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="371" y="110" width="1256" height="1000" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24948665" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24876848" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
@@ -213,28 +210,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/k_means.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1334">
-          <caret line="58" column="4" selection-start-line="58" selection-start-column="4" selection-end-line="58" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spectral_cluster.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="53" column="20" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
-          <folding>
-            <marker date="1535541745465" expanded="true" signature="604:605" ph="..." />
-          </folding>
+        <state relative-caret-position="1035">
+          <caret line="45" column="38" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lpa.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
+        <state relative-caret-position="365">
+          <caret line="40" column="12" lean-forward="true" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
           <folding>
-            <marker date="1535543192063" expanded="true" signature="71:76" ph="..." />
-            <marker date="1535543192063" expanded="true" signature="1176:1721" ph="..." />
+            <marker date="1535543986426" expanded="true" signature="71:76" ph="..." />
+            <marker date="1535543986426" expanded="true" signature="701:1246" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spectral_cluster.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="53" column="20" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
+          <folding>
+            <marker date="1535541745465" expanded="true" signature="604:605" ph="..." />
           </folding>
         </state>
       </provider>
