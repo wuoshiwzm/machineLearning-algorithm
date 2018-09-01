@@ -31,7 +31,7 @@ var createBoost = function (samples, number) {
         }
 
 
-        //遍历所有的split  可以分割的点   f:feature v:value dir:direction方向
+        //遍历所有的split  可以分割的点   f:feature v:value dir:direction方向  sign函数，大于作为+1，小于作为-1
         var currentSplit = {f: 0, v: 0, dir: 1};
         for (var j = 0; j < g.samples[0].x.length; j++) {
             currentSplit.f = j;
@@ -118,9 +118,6 @@ var getScoreBySplit = function (samples, weights, split) {
         split.dir = -1;
         return score_n;
     }
-
-
-
 };
 
 //最后的预测函数
@@ -151,13 +148,21 @@ var predWithBoost = function (boost ,sample) {
     }
 
     return result;
-
-
-
-
-
-
-
-
-
 };
+
+
+//实例
+var doTest = function () {
+    var adaBoost = createBoost(g.samples,30);
+    var result = {};
+
+    for(var x = -23;x<=23;x+=1){
+        for(var y = -23;y<=23;y+=1){
+            var sample = [x/10,y/10];
+            var pred = predWithBoost(adaBoost,sample);
+
+            result[x/10+','+y/10] = pred;
+        }
+    }
+    return result;
+}

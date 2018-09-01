@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bdb17bb-d64b-447b-8ab0-7a8e5fc57c31" name="Default Changelist" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AdaBoost.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AdaBoost.js" afterPath="$PROJECT_DIR$/AdaBoost.js" />
     </list>
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,15 +56,16 @@
       <file leaf-file-name="AdaBoost.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AdaBoost.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="601">
-              <caret line="152" column="18" selection-start-line="152" selection-start-column="18" selection-end-line="152" selection-end-column="18" />
+            <state relative-caret-position="301">
+              <caret line="155" column="45" selection-start-line="155" selection-start-column="45" selection-end-line="155" selection-end-column="45" />
               <folding>
-                <element signature="e#99#2024#0" expanded="false" />
                 <element signature="e#346#393#0" expanded="false" />
                 <element signature="e#442#589#0" expanded="false" />
-                <element signature="e#1037#1692#0" expanded="false" />
-                <element signature="e#2091#2515#0" expanded="false" />
-                <element signature="e#2557#2752#0" expanded="false" />
+                <element signature="e#1059#1714#0" expanded="false" />
+                <element signature="e#2113#2537#0" expanded="false" />
+                <element signature="e#2579#2774#0" expanded="false" />
+                <element signature="e#2856#3395#0" expanded="false" />
+                <element signature="e#3453#4018#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -103,8 +103,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="614" />
-    <option name="y" value="23" />
+    <option name="x" value="656" />
+    <option name="y" value="32" />
     <option name="width" value="1400" />
     <option name="height" value="820" />
   </component>
@@ -231,15 +231,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1535538582546</updated>
-      <workItem from="1535775895542" duration="3089000" />
+      <workItem from="1535775895542" duration="3803000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3089000" />
+    <option name="totallyTimeSpent" value="3803000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="614" y="23" width="1400" height="820" extended-state="0" />
+    <frame x="656" y="32" width="1400" height="820" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -337,15 +337,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AdaBoost.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="601">
-          <caret line="152" column="18" selection-start-line="152" selection-start-column="18" selection-end-line="152" selection-end-column="18" />
+        <state relative-caret-position="301">
+          <caret line="155" column="45" selection-start-line="155" selection-start-column="45" selection-end-line="155" selection-end-column="45" />
           <folding>
-            <element signature="e#99#2024#0" expanded="false" />
             <element signature="e#346#393#0" expanded="false" />
             <element signature="e#442#589#0" expanded="false" />
-            <element signature="e#1037#1692#0" expanded="false" />
-            <element signature="e#2091#2515#0" expanded="false" />
-            <element signature="e#2557#2752#0" expanded="false" />
+            <element signature="e#1059#1714#0" expanded="false" />
+            <element signature="e#2113#2537#0" expanded="false" />
+            <element signature="e#2579#2774#0" expanded="false" />
+            <element signature="e#2856#3395#0" expanded="false" />
+            <element signature="e#3453#4018#0" expanded="false" />
           </folding>
         </state>
       </provider>
