@@ -10,8 +10,6 @@ path = 'data' + os.sep + 'LogiReg_data.txt'
 pdData = pd.read_csv(path, header=None, names=['Exam 1', 'Exam 2', 'Admitted'])
 pdData.head()
 
-pdData.shape
-
 positive = pdData[pdData['Admitted'] == 1]
 negative = pdData[pdData['Admitted'] != 1]
 
@@ -41,5 +39,29 @@ def sigmoid(z):
 
 
 # model:
-def y(x1, x2, theta0, theta1, theta2):
-    return theta0 + theta1 * x1 + theta2 * x2
+def model(X, theta):
+    return sigmoid(np.dot(X, theta.T))
+
+# 数据预处理
+pdData.insert(0, 'Ones', 1) # in a try / except structure so as not to return an error if the block si executed several times
+
+
+# set X (training data) and y (target variable)
+orig_data = pdData.as_matrix() # convert the Pandas representation of the data to an array useful for further computations
+cols = orig_data.shape[1]
+X = orig_data[:,0:cols-1]
+y = orig_data[:,cols-1:cols]
+
+# convert to numpy arrays and initalize the parameter array theta
+#X = np.matrix(X.values)
+#y = np.matrix(data.iloc[:,3:4].values) #np.array(y.values)
+theta = np.zeros([1, 3])
+
+pdData.insert(0, 'Ones', 1) # in a try / except structure so as not to return an error if the block si executed several times
+
+#损失函数
+
+def cost(X, y, theta):
+    left = np.multiply(-y, np.log(model(X, theta)))
+    right = np.multiply(1 - y, np.log(1 - model(X, theta)))
+    return np.sum(left - right) / (len(X))
