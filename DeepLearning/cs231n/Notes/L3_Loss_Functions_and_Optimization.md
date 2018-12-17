@@ -1,4 +1,4 @@
-# L3: Loss Functions and Optimization
+ # L3: Loss Functions and Optimization
 
 
 ## 1. SVM loss
